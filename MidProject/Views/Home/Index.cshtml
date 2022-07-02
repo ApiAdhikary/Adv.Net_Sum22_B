@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h1>Logged In Id = @Session["logged_user"]</h1>
+@if (Model != null)
+{
+
+    <h1>Name :  @Model.Name</h1>
+   
+    <h1>Id : @Model.Id</h1>
+    
+    <h1>Dob : @Model.Dob</h1>
+   
+}
+
+
